@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ronan Romano — AI @ Purdue • Debate • Legal-Tech</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Vanta.js + Three.js (for the animated background) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <!-- Animated background -->
+  <div id="vanta-bg"></div>
+
+  <!-- Top nav / CTA buttons -->
+  <header class="nav">
+    <div class="brand">Ronan Romano</div>
+    <nav class="links">
+      <a class="btn" href="#about">About</a>
+      <a class="btn" href="#projects">Projects</a>
+      <a class="btn" href="#tech">Tech</a>
+      <a class="btn solid" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main content 'glass' card -->
+  <main class="content" id="about">
+    <!-- Header / Name (your original content kept) -->
+    <h1 class="title">Ronan Romano</h1>
+    <p class="subtitle"><strong>AI @ Purdue • Debate • Legal-Tech</strong></p>
+
+    <p class="muted">Currently pursuing a <strong>BA in Artificial Intelligence (Purdue)</strong>.</p>
+
+    <hr />
+
+    <section>
+      <h2>Current Focus</h2>
+      <ul>
+        <li><strong>Legal Research Chatbot</strong> (IBM Cognitive Class + vector retrieval)<br>
+          → case similarity, source-anchored quoting, and auto-structured argument outputs
+        </li>
+        <li><strong>FER Live Demo</strong><br>
+          → on-device facial emotion recognition with real-time smoothing + panel UI
+        </li>
+        <li><strong>Case Classification Neural Network</strong><br>
+          → TF-IDF + Feed-Forward Neural Network<br>
+          → classifies case summaries into legal categories (e.g., Criminal, Civil, Corporate)<br>
+          → small, fast model trained on labeled case text<br>
+          → outputs a single predicted case type with softmax confidence
+        </li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <section id="tech">
+      <h2>Tech Stack</h2>
+
+      <h3>Core</h3>
+      <p>Python • Pandas • NumPy • scikit-learn • PyTorch • TensorFlow</p>
+
+      <h3>Retrieval &amp; LLM</h3>
+      <p>FAISS • ChromaDB • LangChain • HuggingFace Transformers</p>
+
+      <h3>Parsing / NLP</h3>
+      <p>PyMuPDF • NLTK • BeautifulSoup</p>
+
+      <h3>Vision</h3>
+      <p>OpenCV • MTCNN • ONNX</p>
+
+      <h3>Other</h3>
+      <p>JMP • Git • Linux • VS Code</p>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>🥇 Background</h2>
+      <blockquote><strong>Nationally Ranked LD + Extemp Debater</strong></blockquote>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>📈 GitHub Stats (Optional)</h2>
+      <p class="center">
+        <img height="170" src="https://github-readme-stats.vercel.app/api?username=ronanromano&show_icons=true&theme=tokyonight" alt="GitHub stats" />
+        <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ronanromano&layout=compact&theme=tokyonight" alt="Top languages" />
+      </p>
+    </section>
+
+    <hr />
+
+    <!-- Empty Projects Section (buttons jump here) -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <p class="muted">Coming soon.</p>
+      <div class="project-grid">
+        <!-- leave empty for now -->
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Contact / Quick links -->
+    <section id="contact">
+      <h2>Quick links</h2>
+      <ul class="quick">
+        <li>🧑‍💻 <strong>Portfolio:</strong> <a href="https://ronanromano.github.io" target="_blank" rel="noopener">ronanromano.github.io</a></li>
+        <li>📚 <strong>Projects:</strong> pinned below</li>
+        <li>📬 <strong>Email:</strong> <a href="mailto:ronan@example.com">ronan@example.com</a></li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p>“We are what we repeatedly do. Excellence, then, is not an act, but a habit.”</p>
+    </footer>
+  </main>
+
+  <!-- App JS -->
+  <script src="assets/app.js"></script>
+</body>
+</html>
